@@ -6,7 +6,10 @@ output:
     keep_md: yes
     theme: readable
 ---
-
+```{r setoptions, echo=FALSE}
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
 
 ## Loading and preprocessing the data
 ```{r part1-code1}
